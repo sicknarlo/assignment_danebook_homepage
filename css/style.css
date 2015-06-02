@@ -1,0 +1,25 @@
+nav {
+  background-color: #2B78E4; }
+  nav a {
+    color: #fff; }
+
+.navbar-brand {
+  font-size: 30px; }
+
+header {
+  margin-bottom: 50px; }
+
+.main-left {
+  padding-top: 100px; }
+  .main-left h2 {
+    font-size: 42px; }
+  .main-left li {
+    font-size: 20px;
+    margin-bottom: 18px; }
+
+.main-right {
+  margin-top: 10px; }
+  .main-right h1 {
+    font-size: 50px; }
+
+/*# sourceMappingURL=style.css.map */
