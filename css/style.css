@@ -1,13 +1,14 @@
-nav {
-  background-color: #2B78E4; }
-  nav a {
+.top-nav {
+  background-color: #2B78E4;
+  border-bottom: 2px solid black; }
+  .top-nav a {
     color: #fff; }
 
-.navbar-brand {
+.top-navbar-brand {
   font-size: 30px; }
 
-header {
-  margin-bottom: 50px; }
+.container {
+  height: 100%; }
 
 .main-left {
   padding-top: 100px; }

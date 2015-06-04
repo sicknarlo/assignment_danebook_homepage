@@ -1,19 +1,23 @@
 // Header
 
-nav {
+.top-nav {
   background-color: #2B78E4;
+  border-bottom: 2px solid black;
   a {
     color: #fff;
   }
 }
 
-.navbar-brand {
+.top-navbar-brand {
   font-size: 30px;
 }
 
-header {
-  margin-bottom: 50px;
+.container {
+  height:100%;
 }
+
+
+// Main
 
 .main-left {
   padding-top: 100px;
