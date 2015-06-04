@@ -13,6 +13,9 @@
     <!-- Unique Styles -->
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- JS -->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -22,12 +25,34 @@
   </head>
 
   <header>
-    
-    <nav class="navbar top-nav">
-      <div class="container">
+
+    <nav class="navbar top-nav top-nav-logged-out">
+      <div class="container-fluid">
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="navbar-brand top-navbar-brand" href="#">Danebook</a>
         </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right sign-in-logged-out">
+            <div class="form-group">
+              Email<br>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              Password<br>
+              <input type="password" class="form-control">
+            </div>
+            <div class="form-group">
+              <br>
+              <button type="submit" class="btn btn-success">Log In</button>
+            </div>
+          </form>
+        </div><!--/.navbar-collapse -->
       </div>
     </nav>
 
@@ -38,7 +63,7 @@
     <section class="body">
       <div class="container">
         <div class="row">
-          <section class="main-left col-md-8">
+          <section class="main-left col-md-7">
             <h2>Connect with all your friends!</h2>
             <br>
             <ul>
@@ -48,7 +73,7 @@
               <li><strong>Like things</strong> because you're a positive person!</li>
             </ul>
           </section>
-          <section class="main-right col-md-4">
+          <section class="main-right col-md-5">
             <h1>Sign Up</h1>
           </section>
         </div>

@@ -5,10 +5,20 @@
     color: #fff; }
 
 .top-navbar-brand {
-  font-size: 30px; }
+  font-size: 30px;
+  padding-top: 40px; }
 
-.container {
-  height: 100%; }
+.top-nav-logged-out {
+  min-height: 100px; }
+  .top-nav-logged-out .top-navbar-brand {
+    font-size: 50px; }
+  .top-nav-logged-out .container-fluid {
+    height: 100px; }
+
+.sign-in-logged-out {
+  padding-top: 15px;
+  color: white;
+  font-size: 16px; }
 
 .main-left {
   padding-top: 100px; }
